@@ -1,0 +1,54 @@
+a:link { color: #FFFFFF; }
+a:visited { color: #999999; }
+
+body { 
+    color: lime; 
+    background-color: black; 
+    background-image: url("pic.jpg");
+}
+
+div {
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+label {
+    display: inline;
+    width: 160px;
+    text-align: right;
+}
+
+table {
+
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: black;
+    border: 2px solid white;
+    width: 100%;
+    text-align: center;
+      
+}
+
+form {
+    display: table;
+}
+
+table tr:nth-child(odd) { 
+    background-color: #222222; 
+}
+
+table tr:nth-child(even) { 
+    background-color: #444444; 
+}
+
+th, td {
+    border: 1px solid gray;
+}
+
+caption {
+    font-size: 500%;
+}
+
