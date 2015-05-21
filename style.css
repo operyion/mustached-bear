@@ -2,7 +2,7 @@ a:link { color: #FFFFFF; }
 a:visited { color: #999999; }
 
 body { 
-    color: lime; 
+    color: #FFC200; 
     background-color: black; 
     background-image: url("pic.jpg");
 }
